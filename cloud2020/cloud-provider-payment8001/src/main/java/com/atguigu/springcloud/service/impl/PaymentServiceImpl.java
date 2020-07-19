@@ -2,13 +2,13 @@ package com.atguigu.springcloud.service.impl;
 
 import com.atguigu.springcloud.entities.Payment;
 import com.atguigu.springcloud.service.PaymentService;
+import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 
 @Service
 public class PaymentServiceImpl implements PaymentService {
-
 
     @Override
     public int create(Payment payment){
