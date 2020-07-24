@@ -1,3 +1,7 @@
 *.class
 cloud2020/.idea/workspace.xml
 .idea
+*.iml
+cloud2020/cloud-gateway-gateway9527/target/
+cloud2020/cloud-consumer-feign-hystrix-order80/target/
+cloud2020/*/target/

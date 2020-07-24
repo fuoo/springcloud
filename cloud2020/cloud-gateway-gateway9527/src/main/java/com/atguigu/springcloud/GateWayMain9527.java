@@ -2,18 +2,17 @@ package com.atguigu.springcloud;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-@EnableFeignClients
-@EnableCircuitBreaker
-public class OrderHystrixMain80 {
+@EnableEurekaClient
+public class GateWayMain9527 {
     public static void main(String[] args) {
-        SpringApplication.run(OrderHystrixMain80.class,args);
+        SpringApplication.run( GateWayMain9527.class,args);
         System.out.print("==================================================");
-        System.out.print("OrderHystrixMain80 启动成功");
+        System.out.print("GateWayMain9527 启动成功");
         System.out.print("==================================================");
     }
 }
+
 
