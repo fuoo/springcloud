@@ -10,7 +10,7 @@ spring:
       - id: payment_routh #ID 唯一地址就可以，最好使用服务名称
         uri: http://localhost:8001   #
         predicates:
-          - Path=/payment/get/**   #,
+          - Path=/**   #,
 
       - id: payment_routh2
         uri: http://localhost:8001
