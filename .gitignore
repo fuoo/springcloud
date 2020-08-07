@@ -5,3 +5,4 @@ cloud2020/.idea
 cloud2020/cloud-gateway-gateway9527/target/
 cloud2020/cloud-consumer-feign-hystrix-order80/target/
 cloud2020/*/target/
+sentinel-dashboard-1.7.0.jar
